@@ -21,7 +21,7 @@
 #include "Utilities.hxx"
 
 namespace Sydonia{
-  // ! Class for lexing an inja Template.
+  // ! Class for lexing an Sydonia Template.
   class Lexer{
     enum class State{
       Text,
