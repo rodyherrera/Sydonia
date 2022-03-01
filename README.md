@@ -1,6 +1,14 @@
 ### Sydonia Template Engine
 Sydonia is a template engine which is inspired by [Jinja](https://github.com/pallets/jinja/), Sydonia is a recreation of the [Inja](https://github.com/pantor/inja) engine, it is possible that Sydonia contains other implementations, originally the creation of this software was learn how this engine or template language is made, change the style of the code and be able to use it in other projects, Sydonia to work in your projects the [nlohmann json library](https://github.com/nlohmann/json), this library is used for data entry, this template language is quite intuitive and easy to use, it will not be a problem to learn how this works, this software has a file called Setup.py which will allow you to execute various operations that affect the source code with only one line of code, for example generate a header-only file from the library, it is already ready, but it is likely that you will want to update it after a modification in the source code of Sydonia, then you will be explained more about said file.
 
+#### The setup file
+Before we start, let's take a look at the Setup file, as in other of my installments, most of the time you will come across a file called Setup, which has features that you can execute with a command that will save you a couple of time.
+```bash
+# <In the root directory>
+# Generate or update the library's header-only file.
+python3 Setup.py DoSingleFile
+```
+
 #### Integration
 The way in which you should integrate Sydonia to your projects is quite easy, this is because you only have to move a file which contains all the source code, this file can also be known as 'header-only', this file is called Sydonia .hxx and is located at the root of the library source code, you just have to move it to your project and do the respective include to start using Sydonia.
 ```c++
