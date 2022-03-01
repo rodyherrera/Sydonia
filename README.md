@@ -138,7 +138,7 @@ DefaultEnvironment.IncludeTemplate("Content", ContentTemplate);
 DefaultEnvironment.Render("Content: {% Include \"Content\" %}", Context); // "Content: Hello Peter!"
  
 // Other template files are included relative from the current file location
-Sydonia::Render("{% Include \"Footer.html\" %}", data);
+Sydonia::Render("{% Include \"Footer.html\" %}", Context);
 
 ```
 #### Assignments
@@ -213,7 +213,7 @@ Sydonia::Render("{{ IsArray(Guests) }}", Context); // "true"
 // Implemented type checks: IsArray, IsBoolean, IsFloat, IsInteger, IsNumber, IsObject, IsString,
 ```
 
-You can create your own and more complex functions with callbacks. These are implemented with std::function, so you can for example use C++ lambdas. Inja Arguments are a vector of json pointers. 
+You can create your own and more complex functions with callbacks. These are implemented with std::function, so you can for example use C++ lambdas. Sydonia Arguments are a vector of json pointers. 
 
 ```c++
 Sydonia::Environment Environment;
