@@ -5,7 +5,7 @@
 # *
 # * =+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
 # *
-# * For related information - https://github.com/CodeWithRodi/Sydonia/
+# * For related information - https://github.com/rodyherrera/Sydonia/
 # *
 # ****/
 
@@ -100,9 +100,9 @@ try:
     print(f'''\
 : Sydonia<Setup> - Welcome water drinker :)
 
->>> [Website] https://codewithrodi.com/
->>> [Source Code] https://github.com/CodeWithRodi/Sydonia/
->>> [Email] contact@codewithrodi.com
+>>> [Website] https://rodyherrera.com/
+>>> [Source Code] https://github.com/rodyherrera/Sydonia/
+>>> [Email] contact@rodyherrera.com
 
 :-: It has been detected that you are using <{k.get('OperativeSystem', 'Unknown')}>, you are executing 
 :-: the Sydonia setup, you can read the 'README.md' located at the root 

@@ -5,7 +5,7 @@ Sydonia is a template engine which is inspired by [Jinja](https://github.com/pal
 To install this library so that you can start using it in your projects, you just have to clone the repository, the respective commands will be shown below.
 ```bash
 # Cloning the repository...
-git clone https://github.com/codewithrodi/Sydonia/
+git clone https://github.com/rodyherrera/Sydonia/
 # Accessing the repository
 cd Sydonia
 ```
